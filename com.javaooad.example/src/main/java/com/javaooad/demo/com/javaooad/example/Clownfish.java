@@ -2,8 +2,11 @@ package com.javaooad.demo.com.javaooad.example;
 
 public class Clownfish extends Fish{
 
-	public Clownfish(String appearance, String action) {
+	public Clownfish() {
 		super("Small and Colourful(Orange)", "Make Jokes");
+	}
+	public Clownfish(String appearance, String action) {
+		super(appearance, action);
 	}
 
 	

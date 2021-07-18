@@ -1,8 +1,8 @@
 package com.javaooad.demo.com.javaooad.example;
 
-public interface Rooster extends Bird {
+public class Rooster implements Bird {
 
-	default public void sound() {
+	public void sound() {
 		System.out.println("Cock-a-doodle-doo");
 	}
 }
