@@ -1,10 +1,10 @@
 package com.javaooad.demo.com.javaooad.example;
 
-public abstract class Bird implements Animal {
+public interface Bird extends Animal {
 
 	public abstract void sound();
 
-	public void sing() {
+	default public void sing() {
 		System.out.println("I can Sing");
 	}
 }

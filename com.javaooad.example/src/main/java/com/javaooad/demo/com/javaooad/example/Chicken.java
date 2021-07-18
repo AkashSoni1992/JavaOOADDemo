@@ -1,6 +1,6 @@
 package com.javaooad.demo.com.javaooad.example;
 
-public class Chicken extends Bird{
+public class Chicken implements Bird{
 
 	public void move() {
 		System.out.println("I cannot fly");
