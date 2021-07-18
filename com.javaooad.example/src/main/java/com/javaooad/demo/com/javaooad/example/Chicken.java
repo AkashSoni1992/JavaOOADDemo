@@ -1,6 +1,6 @@
 package com.javaooad.demo.com.javaooad.example;
 
-public class Chicken implements Bird, Walker {
+public class Chicken implements Bird{
 
 	@Override
 	public void sound() {
