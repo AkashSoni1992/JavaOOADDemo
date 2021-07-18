@@ -8,10 +8,4 @@ public class ParrotLivingWithCats extends Parrot{
 		
 	}
 
-	@Override
-	public void move() {
-		System.out.println("Move and Fly");
-	}
-
-	
 }
