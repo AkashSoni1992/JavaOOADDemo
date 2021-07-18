@@ -1,6 +1,6 @@
 package com.javaooad.demo.com.javaooad.example;
 
-public class ParrotLivingWithDogs extends Parrot{
+public class ParrotLivingWithDogs implements Parrot{
 
 	@Override
 	public void sound() {
